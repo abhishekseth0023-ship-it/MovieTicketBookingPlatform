@@ -18,7 +18,6 @@ const VerifyPaymentPage = () => {
       const payment_status = params.get("payment_status");
       const token = localStorage.getItem("token");
 
-      // If user canceled on Stripe-hosted checkout page
       if (payment_status === "cancel") {
         navigate("/checkout", { replace: true });
         return;
