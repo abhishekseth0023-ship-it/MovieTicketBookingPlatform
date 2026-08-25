@@ -19,10 +19,3 @@ build/
 
 # Log files
 *.log
-
-# Default README files
-admin/README.md
-frontend/README.md
-
-# Temporary dummy data
-frontend/src/components/News/newdummydata
